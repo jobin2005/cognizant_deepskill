@@ -1,0 +1,7 @@
+ALTER TABLE Customers ADD (IsVIP CHAR(1) DEFAULT 'N');
+
+BEGIN
+  UPDATE Customers SET IsVIP = 'Y' WHERE Balance > 10000;
+  COMMIT;
+END;
+/
