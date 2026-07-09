@@ -63,3 +63,17 @@ public class EmployeeService {
 - Use JPA to define persistence contracts.
 - Use Hibernate to provide the runtime implementation.
 - Use Spring Data JPA to simplify repository and CRUD operations over Hibernate/JPA.
+
+## Spring Data JPA Query Methods
+Spring Data JPA can create queries based on method names in repository interfaces.
+The project includes examples for:
+
+- `findByNameContaining(String text)` — search by containing text
+- `findByNameStartingWith(String prefix)` — filter by starting text
+- `findByNameContainingOrderByNameAsc(String text)` — search and sort results
+- `findTop3ByNameContaining(String text)` — fetch top results
+- `findByCodeGreaterThan(String code)` — search for values greater than a threshold
+- `findByCodeLessThan(String code)` — search for values less than a threshold
+- `findByCreatedDateBetween(LocalDate start, LocalDate end)` — fetch records between dates
+
+The query method names are parsed by Spring Data JPA and translated into SQL at runtime, which removes the need to write repository implementations manually.

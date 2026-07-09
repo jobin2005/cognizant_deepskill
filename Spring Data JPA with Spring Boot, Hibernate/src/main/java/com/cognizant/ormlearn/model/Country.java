@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "country")
@@ -16,12 +17,24 @@ public class Country {
     @Column(name = "co_name")
     private String name;
 
+    @Column(name = "co_created_date")
+    private LocalDate createdDate;
+
     public Country() {
     }
 
-    public Country(String code, String name) {
+    public Country(String code, String name, LocalDate createdDate) {
         this.code = code;
         this.name = name;
+        this.createdDate = createdDate;
+    }
+
+    public LocalDate getCreatedDate() {
+        return createdDate;
+    }
+
+    public void setCreatedDate(LocalDate createdDate) {
+        this.createdDate = createdDate;
     }
 
     public String getCode() {
@@ -45,6 +58,7 @@ public class Country {
         return "Country{" +
                 "code='" + code + '\'' +
                 ", name='" + name + '\'' +
+                ", createdDate=" + createdDate +
                 '}';
     }
 }
