@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+  background: #eef7ff;
+}
+
+h1 {
+  margin-bottom: 1.25rem;
+}
+
+.button-group {
+  display: inline-flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+button.active {
+  background: #1d4ed8;
+}
+
+.details-card {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.08);
+  text-align: left;
+}
+
+.details-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-card li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.details-card li:last-child {
+  border-bottom: none;
+}

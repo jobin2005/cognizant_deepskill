@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background: #eef6ff;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button,
+.logout-button,
+.book-button {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.flights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.flight-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.flight-card h3 {
+  margin-top: 0;
+}
+
+.logout-button {
+  margin-top: 1.5rem;
+}
+
+.book-button {
+  margin-top: 0.75rem;
+}
+
+.guest-page p,
+.user-page p {
+  margin: 0.5rem 0;
+}

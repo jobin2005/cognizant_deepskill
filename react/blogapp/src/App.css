@@ -1,0 +1,44 @@
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 24px 40px rgba(31, 41, 55, 0.08);
+  padding: 2rem;
+}
+
+.App h1 {
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.posts-list {
+  margin-top: 1.5rem;
+}
+
+.post {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post-title {
+  margin: 0 0 0.5rem;
+  color: #1d4ed8;
+}
+
+.post-body {
+  margin: 0;
+  color: #334155;
+}
+
+.error-alert {
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 1rem;
+  border-radius: 8px;
+}

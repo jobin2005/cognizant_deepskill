@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: #f5f7ff;
+  min-height: 100vh;
+}
+
+.office-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.office-info {
+  margin: 1.5rem auto;
+  max-width: 700px;
+  text-align: left;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.office-list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.office-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0 8px 15px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e2e8f0;
+}
