@@ -1,0 +1,6 @@
+# Ignore all files with .log extension
+*.log
+
+# Ignore the log directory and its contents
+log/
+*.bak
