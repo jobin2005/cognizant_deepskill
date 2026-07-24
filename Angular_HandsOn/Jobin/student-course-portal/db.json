@@ -1,0 +1,11 @@
+{
+  "courses": [
+    { "id": 1, "name": "Angular Basics", "code": "CS101", "credits": 3, "gradeStatus": "passed", "isEnrolled": true },
+    { "id": 2, "name": "Advanced React", "code": "CS102", "credits": 4, "gradeStatus": "pending", "isEnrolled": false },
+    { "id": 3, "name": "Spring Boot Microservices", "code": "CS103", "credits": 5, "gradeStatus": "failed", "isEnrolled": true },
+    { "id": 4, "name": "Python for Data Science", "code": "CS104", "credits": 3, "gradeStatus": "passed", "isEnrolled": false },
+    { "id": 5, "name": "Cloud Computing AWS", "code": "CS105", "credits": 4, "gradeStatus": "pending", "isEnrolled": false },
+    { "id": 6, "name": "DevOps Practices", "code": "CS106", "credits": 2, "gradeStatus": "pending", "isEnrolled": false }
+  ],
+  "enrollments": []
+}

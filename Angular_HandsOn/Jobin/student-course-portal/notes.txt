@@ -1,0 +1,8 @@
+# angular.json: Defines workspace and project configuration for Angular CLI builders and schematics.
+# tsconfig.json: The root TypeScript configuration defining compiler options for the entire workspace.
+# tsconfig.app.json: A child TypeScript configuration specifically for compiling the application code (src/).
+# package.json: Manages npm dependencies, scripts, and package metadata.
+# src/main.ts: The application entry point which bootstraps the root Angular component.
+# src/app/app.config.ts: Configuration file for the standalone application (providers, routers, etc.).
+# src/app/app.component.ts: The root component class that defines the main view container application logic.
+# src/index.html: The main HTML page served to the browser where the root component is injected.

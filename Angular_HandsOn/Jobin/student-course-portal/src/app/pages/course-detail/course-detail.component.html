@@ -1,0 +1,11 @@
+<div class="detail-container" *ngIf="course; else notFound">
+  <h2>{{ course.name }} ({{ course.code }})</h2>
+  <p>Credits: {{ course.credits }}</p>
+  <p>Grade Status: {{ course.gradeStatus }}</p>
+  
+  <p>This is a detailed view dynamically populated from URL parameters!</p>
+</div>
+
+<ng-template #notFound>
+  <p>Course not found.</p>
+</ng-template>

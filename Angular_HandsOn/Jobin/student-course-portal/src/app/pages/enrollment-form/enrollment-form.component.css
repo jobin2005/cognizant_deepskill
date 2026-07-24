@@ -1,0 +1,42 @@
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="number"], select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.ng-invalid.ng-touched {
+  border-color: red !important;
+}
+.ng-valid.ng-touched {
+  border-color: green !important;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+.success-message {
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.actions { margin-top: 20px; }
+.actions button { margin-right: 10px; padding: 8px 16px; }

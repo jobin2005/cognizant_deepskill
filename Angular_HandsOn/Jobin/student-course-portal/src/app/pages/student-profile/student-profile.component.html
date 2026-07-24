@@ -1,0 +1,13 @@
+<div class="profile-container">
+  <h2>My Profile</h2>
+  
+  <h3>Enrolled Courses</h3>
+  <ng-container *ngIf="enrolledCourses$ | async as courses">
+    <ul>
+      <li *ngFor="let c of courses">
+        {{ c.name }} ({{ c.code }}) - {{ c.credits }} Credits
+      </li>
+    </ul>
+    <p *ngIf="courses.length === 0">You have no enrolled courses.</p>
+  </ng-container>
+</div>
